@@ -10,7 +10,7 @@ To use, simply run
 
 ```bash
 docker build . -t bb &&
-docker run -p 8090:8090 bb
+docker run --rm -p 8090:8090 bb
 ```
 
 This is the start of an expriment to use babashka as a way to run serverless functions on Heroku and avoid looong JVM startup times.
